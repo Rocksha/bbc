@@ -1,0 +1,209 @@
+body {
+  margin:0;
+  font-family:arial,helvetica,sans-serif;
+}
+#bbcglobe {
+  background:url("images/bbc.png") no-repeat top right;
+  height:100px;
+  position:absolute;
+  padding:350px;
+}
+#topbar {
+  background-color: rgba(123,0,0,0.65);
+  width:100%;
+  height:40px;
+  font-weight:bold;
+  color:white;
+  font-size:0.9em;
+  position:relative;
+  z-index:3 !important;
+}
+.fixedwidth {
+  width: 1050px;
+  margin:0 auto;
+}
+#logodiv {
+  padding-top:8px;
+  padding-right:5px;
+  float:left;
+}
+#signindiv {
+  padding:10px 80px 8px 20px;
+  float:left;
+}
+#signindiv img {
+  position:relative;
+  top:5px;
+}
+.rightborder{
+  border-right: 1px #990000 solid;
+}
+#topmenudiv {
+  float:left;
+}
+#topmenudiv ul{
+  margin:0;
+  padding:0;
+}
+#topmenudiv li {
+  list-style: none;
+  float:left;
+  padding:10px 20px 13px 20px;
+  border-right: 1px #990000 solid;
+}
+#searchboxdiv {
+  float:left;
+  padding:8px;
+}
+#searchboxdiv input {
+  height:20px;
+  border:none;
+  padding: 0 0 0 10px;
+  background-image: url("images/search.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+.clear {
+  clear:both;
+}
+#newsbar {
+  background-color: #990000;
+  width:100%;
+  height:90px;
+  color:white;
+  font-size:0.9em;
+}
+#newsheader {
+  margin:0;
+  font-size:3em;
+  padding-top:10px;
+  float:left;
+  position:relative;
+  z-index:3;
+}
+#uk {
+   font-size:0.7em;
+}
+#rss {
+  float:right;
+  padding-right:20px;
+  padding-top:20px;
+  position:relative;
+  z-index:3;
+  font-weight:bold;
+}
+#rss img {
+  margin:0;
+  padding:0;
+}
+#newsmenu {
+  position:relative;
+  z-index:5;
+}
+#newsmenu ul {
+  background-color:#3E0C0D;
+  padding:10px 5px 0 0;
+  margin:0;
+  height:20px;
+}
+#newsmenu li {
+  float:left;
+  list-style: none;
+  padding:0 5px 0 5px;
+  font-weight:bold;
+  border-right: 1px #990000 solid;
+}
+.selected {
+  background-color: #EDEDED;
+  color:#455236;
+  height:22px;
+  position:relative;
+  top:-10px;
+  padding-top:9px !important;
+}
+#content {
+  color:#5D5D5D;
+  font-size:0.85em;
+}
+#content p{
+  margin:0;
+}
+#content h1{
+  font-weight:bold;
+  font-size:2.5em;
+}
+a:link {
+  color:#1F4F82;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+  text-decoration-color:#1F4F82;
+  list-style: none;
+}
+.newspaperstyle {
+  float:left;
+}
+.newsitem {
+  position:relative;
+  left:10px;
+  width:220px;
+  text-align: justify;
+}
+.video {
+  background-image:url("images/play.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left:20px;
+}
+.lineheight {
+  line-height: 1.3;
+}
+#watchlisten{
+  background-color: #EEEEEE;
+  width:350px;
+  height:208px;
+  float:right;
+  position:relative;
+  top:-80px;
+}
+h2{
+  margin:10px;
+  color:#5D5D5D;
+  padding:0;
+  font-size: 1.7em;
+}
+#boxes{
+  float:right;
+  padding-top:20px;
+}
+#leftarrow {
+  border-right:1px white solid;
+  float:left;
+}
+.wlbox {
+  float:left;
+  width:148px;
+  background-color:#D1700E;
+  border-right:1px solid white;
+}
+
+.wlbox p{
+  margin:10px 10px 10px 10px;
+  padding-bottom:15px;
+}
+.wlbox a:link{
+  color:white;
+}
+#rightarrow {
+  float:left;
+}
+#bbcnews img {
+ padding:8px 5px 5px 5px;
+ margin:0;
+ float:left;
+}
+#bbcnews p {
+  margin:0;
+  padding:8px 0 0 0;
+}
